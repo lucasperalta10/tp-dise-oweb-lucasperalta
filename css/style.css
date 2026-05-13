@@ -115,53 +115,42 @@ header {
 
 /* Estructura individual de cada Card */
 .card-item {
-    background-color: #fff;  /* Color de fondo blanco (#fff) */
-    width: 300px;            /* Ancho estricto de 300px */
-    padding-bottom: 1rem;    /* Espaciado interno inferior de 1rem */
+    background-color: #fff;  
+    width: 300px;            
+    padding-bottom: 1rem;    
     text-align: center;
-    cursor: pointer;         /* Puntero del mouse de tipo "Pointer" al pasar por encima */
-    
-    /* Pequeño detalle de diseño opcional para prolijidad escolar */
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; 
-    transition: background-color 0.2s ease; /* Transición suave para el cambio de color */
+    cursor: pointer;         
 }
 
-/* Imagen principal dentro de la card */
 .card-img {
-    width: 100%;             /* Ancho del 100% */
-    height: 200px;           /* Alto de 200px */
-    margin: 0;               /* Sin márgenes */
-    object-fit: cover;       /* Requerimiento: Mantiene la proporción recortando armónicamente */
-    object-position: center; /* Requerimiento: Centra el enfoque de la imagen */
+    width: 100%;       
+    height: 200px;    
+    margin: 0;       
+    object-fit: cover;       
+    object-position: center; 
 }
 
-/* Contenedor del texto para controlar los paddings correctamente */
+
 .card-body {
-    padding: 0 1rem;         /* Alineación interna lateral para que el texto no toque los bordes */
+    padding: 0 1rem;         
 }
 
-/* Título interno de cada card */
 .card-item h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;         /* Tamaño de fuente de 24px */
+    font-size: 24px;        
     font-weight: 700;
-    padding: 1rem 0;         /* Espaciado interno superior e inferior de 1rem */
+    padding: 1rem 0;         
     color: #000;
 }
 
-/* Detalle o descripción de cada card */
 .card-item p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;         /* Tamaño de fuente de 18px */
-    padding: 1rem 0;         /* Mismos espaciados internos (superior e inferior de 1rem) que el título */
+    font-size: 18px;
+    padding: 1rem 0;         
     color: #333;
     line-height: 1.4;
 }
 
-/* Comportamiento al pasar el mouse por encima (Hover) */
 .card-item:hover {
-    background-color: #F0F0F0; /* Cambia el color de fondo a: #F0F0F0 */
+    background-color: #F0F0F0;
 }
