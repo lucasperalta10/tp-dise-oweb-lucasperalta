@@ -87,33 +87,31 @@ header {
     font-weight: 700;
 }
 
-/* Contenedor general de la sección */
+
 .seccion-servicios {
-    background-color: #CCC; /* Color de fondo de la sección solicitado */
-    padding: 1rem;          /* Espaciado interno de la sección */
-    min-height: calc(100vh - 5rem); /* Opcional: Asegura que cubra la pantalla abajo del nav */
+    background-color: #CCC; 
+    padding: 1rem;          
 }
 
-/* Título de la sección (Reutilizable para las demás páginas) */
 .seccion-titulo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;        /* Tamaño 2rem */
-    font-weight: 700;       /* Tipo negrita */
-    margin: 1rem 0;         /* Espaciado exterior de 1rem (arriba y abajo) */
+    font-size: 2rem;        
+    font-weight: 700;       
+    margin: 1rem 0;         
     text-align: center;
-    color: #b14421;         /* Mantiene el color característico de tu cabecera */
+    color: #b14421;         
 }
 
-/* Contenedor Flexbox para alinear y volver responsivas las cards */
+
 .cards-container {
     display: flex;
-    justify-content: center; /* Centra las cards horizontalmente */
-    gap: 1rem;               /* Distancia entre cada una de las cards de 1rem */
-    flex-wrap: wrap;         /* Hace que se apilen en móviles/tablets (Responsivo) */
+    justify-content: center; 
+    gap: 1rem;               
+    flex-wrap: wrap;         
     padding: 1rem 0;
 }
 
-/* Estructura individual de cada Card */
+
 .card-item {
     background-color: #fff;  
     width: 300px;            
