@@ -219,7 +219,6 @@ header {
     color: #000;
     font-weight: bold;
     box-sizing: border-box;
-    transition: all 0.3s ease;
 }
 
 .boton-nosotros:hover {
