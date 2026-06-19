@@ -1,16 +1,7 @@
-const botonHamburger = document.querySelector('.hamburger');
-const menuLinks = document.querySelector('.navegacion .links');
+const hamburger = document.querySelector('.hamburger');
+const links = document.querySelector('.links');
 
-botonHamburger.addEventListener('click', () => {
-    botonHamburger.classList.toggle('is-active');
-    menuLinks.classList.toggle('is-active');
-});
-
-const itemsMenu = document.querySelectorAll('.navegacion .item');
-
-itemsMenu.forEach(item => {
-    item.addEventListener('click', () => {
-        botonHamburger.classList.remove('is-active');
-        menuLinks.classList.remove('is-active');
-    });
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('is-active');
+    links.classList.toggle('is-active');
 });
