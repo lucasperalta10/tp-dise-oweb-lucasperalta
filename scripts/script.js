@@ -1,15 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const links = document.querySelector(".links");
+const botonHamburger = document.querySelector('.hamburger');
+const menuLinks = document.querySelector('.navegacion .links');
 
-hamburger.addEventListener("click", () => {
-    links.classList.toggle("is-active");
-    hamburger.classList.toggle("is-active");
+botonHamburger.addEventListener('click', () => {
+    botonHamburger.classList.toggle('is-active');
+    menuLinks.classList.toggle('is-active');
 });
 
-const items = document.querySelectorAll(".item");
-items.forEach((item) => {
-    item.addEventListener("click", () => {
-        hamburger.classList.remove("is-active");
-        links.classList.remove("is-active");
+const itemsMenu = document.querySelectorAll('.navegacion .item');
+
+itemsMenu.forEach(item => {
+    item.addEventListener('click', () => {
+        botonHamburger.classList.remove('is-active');
+        menuLinks.classList.remove('is-active');
     });
 });
